@@ -41,7 +41,7 @@ public:
     if (capacity <= size )
     {
       size_t new_capacity = capacity *2;
-      int* new_data = new int [capacity];
+      int* new_data = new int [new_capacity];
 
       for (int i = 0 ; i < size ; ++i)
       {
